@@ -1,0 +1,292 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    background: #30302f;
+    color: #f5f2e9;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #474336;
+    color: #f5f2e9;
+    font-size: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 40px 40px;
+    max-width: 85%;
+}
+
+.headshot {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    margin: 20px 30px 0 0;
+    margin: 10px;
+    border-radius: 80%;
+    border: 2px solid black;
+
+}
+
+.aboutme {
+    display: inline-block;
+    width: 46%;
+}
+
+@media (max-width: 620px) {
+    .container__text {
+        width: 100%;
+    }
+}
+
+.skillsHead {
+    text-align: center;
+}
+
+/* Skills Progress Bar */
+
+
+.wide {
+    letter-spacing: 2px;
+}
+
+.white,
+.hover-white:hover {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+.dark-grey {
+    color: #fff !important;
+    background-color: #616161 !important;
+}
+
+/* Experience */
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.xlarge {
+    font-size: 24px !important;
+}
+
+.quarter {
+    float: left;
+    width: 38%;
+}
+
+.section {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+.row {
+    padding: 0 15px;
+}
+
+.center {
+    display: inline-block;
+    width: auto;
+    width: 100%;
+}
+
+.skillIcon {
+    display: flex;
+    justify-content: center;
+    padding: 40px 50px 50px;
+    max-width: 90%;
+}
+
+/* Projects section */
+.column {
+    float: left;
+    width: 30%;
+
+}
+
+.projectImage {
+    width: 550px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Resume section */
+.btn {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.resumeButton {
+    text-align: center;
+   
+}
+
+.resumeDownload{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    background-color: #999;
+    border-radius: 5px;
+}
+
+
+/* Work Experience*/
+.padding-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+
+.workExperience {
+    text-align: center;
+}
+
+.left {
+    float: left !important;
+}
+
+.margin-right {
+    margin-right: 16px !important;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.large {
+    font-size: 18px !important;
+}
+
+
+/* Photography */
+.photographyHead {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 30%;
+    padding: 5px;
+}
+
+
+/* Contact Me */
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #30302f;
+    padding: 20px;
+}
+
+.contactHead {
+    text-align: center;
+}
+
+
+/* Nav bar */
+.navbar {
+    width: 100%;
+    background-color: #6b6b6b;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #424141;
+}
+
+
+
